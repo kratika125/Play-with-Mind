@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color:lightsteelblue;
+}
+#per{
+    font-size:800%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.second{
+    background-color: cadetblue;
+    height:742px;
+    width:1520px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.start{
+    height:10vmin;
+    width:24vmin;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    background-color:mintcream;
+    font-size: x-large;
+   color:rgb(16, 15, 15);
+}
+.game{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:60vmin;
+    width:60vmin;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    background-color: azure;
+    font-size: x-large;
+   color:brown;
+   
+  
+}
+.reset{
+    font-size: large;
+    height: 70px;
+    width:150px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:1rem;
+    background-color: beige;
+    color:black;
+  border-radius:1rem ;
+    
+}
+#bu{
+    font-size: x-large;
+    height: 60px;
+    width:150px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:1rem;
+    background-color: beige;
+    color:black;
+  border-radius:1rem ;
+}
+.hide{
+    display:none;
+}
+#msg{
+    font-size: x-large;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
